@@ -1,0 +1,4 @@
+lightbox
+========
+
+REDAXO Addon lightbox
