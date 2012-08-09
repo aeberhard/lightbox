@@ -1,0 +1,49 @@
+Addon: Lightbox Version 1.9
+
+10.12.2009 Version 1.9 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Anpassung an REDAXO 4.2.x und 4.3.x
+           - neuer Konfigurationsparameter ausgewählte ID's ausschliessen
+           - Schreibrechte auf files/lightbox/ bzw. files/addons/lightbox/ bei Installation prüfen/setzen
+           - Schreibrechte auf ini-Datei setzen		  
+           - Outputfilter angepasst $rxa_lightbox['htdocsfilesdir']
+           - Changelog bei utf8 korrekt anzeigen
+           - $ARTICLE -> $REX['ARTICLE'], $REX_USER -> $REX['USER']
+
+13.03.2008 Version 1.8 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Update auf Lightbox2 Version 2.04
+           - Anpassung an REDAXO 4.1
+           - Bugfix für Outputfilter (falsche Funktion jquerylightbox_check_cat)
+           - Beispielmodul angepasst
+           - HTML-Fehler/Warnings bereinigt
+
+10.01.2008 Version 1.7 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Neue Einstellung im Backend, "inklusive Unterkategorien"
+             Artikel aus dem Root werden jetzt auch in der Auswahl berücksichtigt
+             (SelectBox), Output-Filter angepasst
+           - neue Seite mit Beispielmodul im Backend
+           - lang-dateien jetzt auch mit utf8
+
+06.12.2007 Version 1.6 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Anpassung an REDAXO 4.0.x und 3.x
+           - $REX_ARTICLE in function lightbox_opf
+
+23.09.2007 Version 1.5 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Anpassung Addon-Konfiguration an REDAXO 3.3b2
+
+27.05.2007 Version 1.4 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Update auf Lightbox2 Version 2.03.3
+
+02.05.2007 Version 1.3 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Update auf Lightbox2 Version 2.03.2
+
+20.02.2007 Version 1.2 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Fatal error in config.inc.php abfangen (bei ungültiger Artikel-Id)
+           - PHP-Warnings entfernen
+
+13.02.2007 Version 1.1 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Fehler bei Deinstallation/Löschen behoben  
+
+30.01.2007 Version 1.0 Andreas Eberhard <andreas.eberhard@gmail.com>
+           - Erste Version für Redaxo 3.2
+           - Lightbox Version 2.02
+  
